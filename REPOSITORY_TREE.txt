@@ -1,0 +1,58 @@
+adaptive-ai-mock-test-engine/
+├── app.py
+├── config.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── README.md
+├── IMPLEMENTATION_ORDER.md
+├── REPOSITORY_TREE.txt
+│
+├── database/
+│   ├── schema.sql
+│   ├── connection.py
+│   ├── models.py
+│   └── repositories/
+│       ├── __init__.py
+│       ├── users.py
+│       ├── subjects.py
+│       ├── topics.py
+│       └── mastery.py
+│
+├── ai/
+│   ├── __init__.py
+│   ├── router.py
+│   ├── schemas.py
+│   ├── providers/
+│   └── prompts/
+│
+├── documents/
+│   ├── __init__.py
+│   ├── parser.py
+│   ├── chunker.py
+│   └── embeddings.py
+│
+├── assessment/
+│   ├── __init__.py
+│   ├── generator.py
+│   ├── evaluator.py
+│   ├── mastery.py
+│   └── numerical_validator.py
+│
+├── tutor/
+│   ├── __init__.py
+│   ├── engine.py
+│   ├── retrieval.py
+│   └── memory.py
+│
+├── storage/
+│   ├── __init__.py
+│   └── r2.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── hashing.py
+│
+└── tests/
+    ├── __init__.py
+    └── test_imports.py
